@@ -1,7 +1,9 @@
 # <span style="color:#ff0000">Some useful tools for the picoCTF</span>
 
 ## Forensics
+
 Can use for image (png, jpg)
+
 - `hexeditor` -> see header file
 - `exiftool` -> Discover metadata
 - `file` -> see the file type
@@ -9,11 +11,15 @@ Can use for image (png, jpg)
 - `binwalk`
 - `wireshark` or `tshark -nr [file]`
 - `zsteg`
-List all the files in big folder
+  List all the files in big folder
 - `ls -alR [file] | more` (remember to use more)
-grep keywords in the big folder
+  grep keywords in the big folder
 - `grep [keyword] -R *`
-Find hidden files in `bmp`?
+  Find hidden files in `bmp`?
 - `steghide extract -sf [file] -p [password]`
-Others
+  Others
 - `sha256sum` [what is SHA-256 checksum](./Others/what%20is%20SHA-256%20checksum.md)
+
+## Reverse Engineering
+
+`Strings -10` (-10 -> only return the results which has at least 10 characters)
