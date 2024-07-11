@@ -23,3 +23,5 @@ Can use for image (png, jpg)
 ## Reverse Engineering
 
 `Strings -10` (-10 -> only return the results which has at least 10 characters)
+`Ghidra` -> use to reverse the code
+
