@@ -11,7 +11,7 @@ Can use for image (png, jpg)
 - `binwalk`
 - `wireshark` or `tshark -nr [file]`
 - `zsteg`
-  List all the files in big folder
+  List all the files in a big folder
 - `ls -alR [file] | more` (remember to use more)
   grep keywords in the big folder
 - `grep [keyword] -R *`
@@ -22,6 +22,7 @@ Can use for image (png, jpg)
 
 ## Reverse Engineering
 
-`Strings -10` (-10 -> only return the results which has at least 10 characters)
-`Ghidra` -> use to reverse the code
+- `Strings -10` (-10 -> only return the results which have at least 10 characters)
+- `Ghidra` -> used to reverse the code
+- `upx-ucl` -d [file] -> To decompress a upx file
 
