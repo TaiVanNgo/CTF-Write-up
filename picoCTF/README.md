@@ -25,4 +25,4 @@ Can use for image (png, jpg)
 - `Strings -10` (-10 -> only return the results which have at least 10 characters)
 - `Ghidra` -> used to reverse the code
 - `upx-ucl` -d [file] -> To decompress a upx file
-
+- `autopsy` (if cannot run try `sudo autopsy`) -> use to discover the autospy
