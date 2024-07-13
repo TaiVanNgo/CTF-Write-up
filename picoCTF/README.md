@@ -7,7 +7,7 @@ Can use for image (png, jpg)
 - `hexeditor` -> see header file
 - `exiftool` -> Discover metadata
 - `file` -> see the file type
-- `Strings -10` (-10 -> only return the results which has at least 10 characters)
+- `strings -10` (-10 -> only return the results which has at least 10 characters)
 - `binwalk`
 - `wireshark` or `tshark -nr [file]`
 - `zsteg`
