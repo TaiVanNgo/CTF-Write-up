@@ -10,12 +10,10 @@ Can use for image (png, jpg)
 - `strings -10` (-10 -> only return the results which has at least 10 characters)
 - `binwalk`
 - `wireshark` or `tshark -nr [file]`
-- `zsteg` -> Find hidden files in `bmp`?
-  
+- `zsteg` -> Find hidden files in `bmp`
 - `ls -alR [file] | more` (remember to use more)
-  grep keywords in the big folder
-- `grep [keyword] -R *` -> List all the files in a big folder
-  
+-> List all the files in a big folder  
+- `grep [keyword] -R *` -> grep keywords in the big folder
 - `steghide extract -sf [file] -p [password]`
   Others
 - `sha256sum` [what is SHA-256 checksum](./Others/what%20is%20SHA-256%20checksum.md)
