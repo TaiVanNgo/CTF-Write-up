@@ -17,6 +17,7 @@ Can use for image (png, jpg)
 - `steghide extract -sf [file] -p [password]`
   Others
 - `sha256sum` [what is SHA-256 checksum](./Others/what%20is%20SHA-256%20checksum.md)
+- `pdftotext` -> try with pdf file, we may be extract some redacted text
 
 ## Reverse Engineering
 
