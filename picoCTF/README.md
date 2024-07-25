@@ -25,3 +25,8 @@ Can use for image (png, jpg)
 - `Ghidra` -> used to reverse the code
 - `upx-ucl` -d [file] -> To decompress a upx file
 - `autopsy` (if cannot run try `sudo autopsy`) -> use to discover the autospy
+
+## Web 
+- `wget -r [link to website]`: Download all the files from a website
+- `grep [word] -r *`: Find recursively
+- Check the `robots.txt` directory
