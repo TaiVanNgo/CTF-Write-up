@@ -18,6 +18,7 @@ Can use for image (png, jpg)
   Others
 - `sha256sum` [what is SHA-256 checksum](./Others/what%20is%20SHA-256%20checksum.md)
 - `pdftotext` -> try with pdf file, we may be extract some redacted text
+- `fcrackzip -b -D -p [path-to-word-list] -u [file.zip] -> Using this to crack the password of a Zip file
 
 ## Reverse Engineering
 
